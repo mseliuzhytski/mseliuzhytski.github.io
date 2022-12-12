@@ -23,6 +23,6 @@ function newMoo() {
     var newString = document.getElementById("textareaId").value;
     let nextString = newString.toUpperCase();
     var parts = nextString.split(".");
-    nextString = parts.join("-Mooo.");
+    nextString = parts.join("-Moo.");
     document.getElementById("textareaId").value = nextString;
 }
