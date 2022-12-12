@@ -21,8 +21,8 @@ function fancy() {
 function newMoo() {
 
     var newString = document.getElementById("textareaId").value;
-    var parts = newString.split(".");
-    newString = parts.join("-Moo.");
     let nextString = newString.toUpperCase();
+    var parts = nextString.split(".");
+    nextString = parts.join("-Moo.");
     document.getElementById("textareaId").value = nextString;
 }
